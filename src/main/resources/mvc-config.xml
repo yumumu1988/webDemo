@@ -12,6 +12,7 @@
             <bean class="org.springframework.http.converter.StringHttpMessageConverter"/>
             <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"/>
         </mvc:message-converters>
+        <mvc:path-matching suffix-pattern="false"/>
     </mvc:annotation-driven>
 
 </beans>
